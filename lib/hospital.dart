@@ -20,7 +20,7 @@ class Hospital {
     var wList = json['waitingList'] as List;
     List<WaitingList> waitingList = wList.map((i) => WaitingList.fromJson(i)).toList();
     // print('Hospital 2');
-    print('Hospital From json = $_counter');_counter++;
+    // print('Hospital From json = $_counter');_counter++;
     return Hospital(
       id: json['id'],
       name: json['name'],

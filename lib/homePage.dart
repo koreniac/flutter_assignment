@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
       print('hospitals complete');
       for( var a=0; a < hospitals.length; a++){
         Hospital hos = hospitals[a];
-         print('hospitals[${a}] = '+ hos.toString());
+        //  print('hospitals[${a}] = '+ hos.toString());
 
           // hos.toString();
       }
