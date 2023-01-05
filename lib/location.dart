@@ -1,10 +1,10 @@
 
 
 class Location {
-  double? lat;
-  double? lng;
+  double lat;
+  double lng;
 
-  Location({this.lat, this.lng});
+  Location({required this.lat, required this.lng});
 
   factory Location.fromJson(Map<String, dynamic> json) {
     return Location(
