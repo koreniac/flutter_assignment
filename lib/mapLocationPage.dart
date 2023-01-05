@@ -34,14 +34,14 @@ class _MapPageState extends State<MapPage> {
         onMapCreated: _onMapCreated,
         initialCameraPosition: CameraPosition(
           target: _center,
-          zoom: 3.0,
+          zoom: 16.0,
         ),
         markers: Set.from([
           Marker(
             markerId: MarkerId('marker_1'),
             position: _center,
             infoWindow: InfoWindow(
-              title: 'Title',
+              title: widget.title,
               snippet: 'Snippet',
             ),
           ),
